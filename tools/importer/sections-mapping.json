@@ -9,7 +9,23 @@
       "sections": [
         {
           "id": "1-1",
-          "blocks": [],
+          "blocks": [
+            {
+              "id": "box-id-763685735",
+              "x": 0,
+              "y": 0,
+              "width": 1268,
+              "height": 1206,
+              "xpath": "/html[1]/body[1]/div[5]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.4)",
+              "mapping": "header",
+              "customBlockName": "header"
+            }
+          ],
           "settings": {}
         }
       ]
