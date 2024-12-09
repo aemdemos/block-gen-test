@@ -46,17 +46,6 @@
 @font-face {
   font-family:"effra Fallback";
   font-style:normal;
-  font-weight:300;
-  src:local("Arial");
-  ascent-override:99.90%;
-  descent-override:27.17%;
-  line-gap-override:0.00%;
-  size-adjust:93.50%;
-}
-
-@font-face {
-  font-family:"effra Fallback";
-  font-style:normal;
   font-weight:500;
   src:local("Arial");
   ascent-override:94.63%;
@@ -74,6 +63,17 @@
   descent-override:26.28%;
   line-gap-override:0.00%;
   size-adjust:96.65%;
+}
+
+@font-face {
+  font-family:"effra Fallback";
+  font-style:normal;
+  font-weight:300;
+  src:local("Arial");
+  ascent-override:99.90%;
+  descent-override:27.17%;
+  line-gap-override:0.00%;
+  size-adjust:93.50%;
 }
 
 @media (width>=900px) {
