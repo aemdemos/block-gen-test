@@ -1,0 +1,80 @@
+.aicolumns1.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .aicolumns1.block > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .aicolumns1.block > div > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .aicolumns1.block h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .aicolumns1.block .button-container {
+    margin-bottom: 20px;
+  }
+  
+  .aicolumns1.block .button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .aicolumns1.block p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 900px) {
+    .aicolumns1.block {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .aicolumns1.block > div {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .aicolumns1.block > div > div {
+      width: 48%;
+      margin-bottom: 0;
+    }
+  
+    .aicolumns1.block h2 {
+      font-size: 3rem;
+      text-align: left;
+    }
+  
+    .aicolumns1.block .button-container {
+      margin-bottom: 0;
+    }
+  
+    .aicolumns1.block .button {
+      font-size: 1.2rem;
+    }
+  
+    .aicolumns1.block p {
+      font-size: 1.1rem;
+    }
+  }
