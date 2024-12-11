@@ -61,7 +61,7 @@
   background-color: #004494;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aihero1 {
     flex-direction: row;
     justify-content: space-between;
